@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea shop</title>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/08c3be82c0.js" crossorigin="anonymous"></script>
+<!-- tailwind -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    <main>
+      <section class="my-32 ml-56 mr-16 mx-auto flex items-center">
+         <div>
+           <h1 class="text-gray-400 font-extrabold text-5xl max-w-3xl uppercase mb-4">It's good <br>
+            tea time at The <br>Tea House</h1>
+            <p class="text-lg font-semibold text-[#777777] mb-4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+            <button class="bg-gradient-to-r from-orange-500 to-red-500  py-3 px-4 rounded-xl text-white ">Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+         </div>
+         <div class="relative">
+            <img src="images/banner.png" alt="">
+            <div class="flex items-center gap-2 bg-white rounded-xl shadow-lg ml-2 absolute top-28 md:top-52 lg:top-96">
+                <div class="text-green-500">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div>
+                    <h3 class="text-black font-extrabold text-3xl">5.00</h3>
+                    <p class="text-[#777777] font-medium text=base">Trust Pilot Ratings</p>
+                </div>
+            </div>
+             
+         </div>
+
+      </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
